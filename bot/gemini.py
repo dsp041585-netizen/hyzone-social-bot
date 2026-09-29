@@ -24,7 +24,8 @@ def generate_json(prompt: str, temperature: float = 0.9, media: list[tuple[str, 
     last = None
     for attempt in range(4):
         try:
-            r = requests.post(URL.format(model=model), params={"key": env("GEMINI_API_KEY")},
+            # Header auth works for both key formats (older "AIza…" and newer "AQ.…").
+            r = requests.post(URL.format(model=model), headers={"x-goog-api-key": env("GEMINI_API_KEY")},
                               json=body, timeout=240)
             if r.status_code in (429, 500, 503):
                 raise RuntimeError(f"Gemini busy ({r.status_code})")
