@@ -6,5 +6,8 @@
   "questions": [],
   "counters": {},
   "last_error": "",
-  "token_refreshed_at": ""
+  "token_refreshed_at": "",
+  "errors": {
+    "Reading Telegram": "⚠️ Reading Telegram: Missing secret/environment variable: TELEGRAM_CHAT_ID"
+  }
 }
