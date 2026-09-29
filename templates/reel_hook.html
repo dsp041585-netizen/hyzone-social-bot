@@ -1,0 +1,17 @@
+{% extends "reel_base.html" %}
+{% from "_logo.html" import shield %}
+{% block style %}
+.wrap { position: absolute; top: 150px; left: 70px; right: 70px; display: flex; flex-direction: column; align-items: center; gap: 18px; }
+.pill { padding: 10px 24px; border-radius: 999px; background: var(--gold); color: var(--navy); font-size: 26px; font-weight: 800; letter-spacing: 4px; }
+.hook { max-height: 260px; overflow: hidden; padding: 22px 34px; border-radius: 28px; background: var(--spruce); color: var(--white);
+        font-size: 60px; font-weight: 700; line-height: 1.1; text-align: center; box-shadow: 0 10px 30px rgba(0,0,0,0.25); }
+.brand { position: absolute; top: 70px; right: 70px; font-family: 'Fraunces', serif; font-size: 30px; font-weight: 700; letter-spacing: 6px;
+         color: var(--white); text-shadow: 0 2px 10px rgba(0,0,0,0.5); }
+{% endblock %}
+{% block body %}
+<div class="brand" style="display:flex;align-items:center;gap:12px;">{{ shield(44, '#FFFFFF', '#0A4D3C') }}HYZONE</div>
+<div class="wrap">
+  <div class="pill">{{ series | upper }}</div>
+  <div class="hook serif fit" data-fit-box>{{ hook }}</div>
+</div>
+{% endblock %}

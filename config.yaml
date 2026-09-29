@@ -1,0 +1,57 @@
+# ─────────────────────────────────────────────
+#  HyZone Instagram bot — settings you can edit
+# ─────────────────────────────────────────────
+
+brand:
+  name: HyZone
+  phone: "[PHONE]"                 # e.g. "+91 98765 43210"
+  instagram_handle: "[HANDLE]"     # without the @, e.g. "hyzone.hyd"
+  city: Hyderabad
+
+timezone: Asia/Kolkata
+
+# When the next week's posts are drafted and sent to Telegram (IST)
+generate:
+  day: Sun
+  hour: 21          # 9 PM
+
+# Weekly lineups, used in turn (week A, week B, week A, …). Add a week C to rotate further.
+# Every series appears once a week, as a Reel one week and as a poster the next.
+# reel: true = you record a video that day (its poster format is the backup if you can't).
+# time = when it goes live on Instagram (IST).
+rotation:
+  - # Week A
+    - {day: Mon, series: "Myth Buster",     format: you_think,         time: "19:30", reel: true}
+    - {day: Tue, series: "Did You Know",    format: big_number,        time: "19:30"}
+    - {day: Wed, series: "Prevention Tip",  format: chat, mode: pest,  time: "19:30", reel: true}
+    - {day: Thu, series: "Spot the Signs",  format: hotspots,          time: "19:30"}
+    - {day: Fri, series: "Our Story",       format: chat, mode: group, time: "19:30", reel: true}
+    - {day: Sat, series: "Know Your Enemy", format: profile_card,      time: "11:00"}
+    - {day: Sun, series: "Ask HyZone",      format: chat, mode: ask,   time: "11:00"}
+  - # Week B
+    - {day: Mon, series: "Did You Know",    format: big_number,        time: "19:30", reel: true}
+    - {day: Tue, series: "Myth Buster",     format: you_think,         time: "19:30"}
+    - {day: Wed, series: "Spot the Signs",  format: hotspots,          time: "19:30", reel: true}
+    - {day: Thu, series: "Prevention Tip",  format: chat, mode: pest,  time: "19:30"}
+    - {day: Fri, series: "Know Your Enemy", format: profile_card,      time: "19:30", reel: true}
+    - {day: Sat, series: "Our Story",       format: chat, mode: group, time: "11:00"}
+    - {day: Sun, series: "Ask HyZone",      format: chat, mode: ask,   time: "11:00"}
+
+reels:
+  language: "Telugu-English mix"                      # what you speak on camera
+  script_style: "a natural Telugu-English mix, written in English letters"
+  caption_script: roman       # roman = Telugu words in English letters · telugu = Telugu script
+  caption_font: "Noto Sans"
+  end_card_seconds: 2.5
+  remind_hours_before: 6      # nudge on the day if the video hasn't arrived
+
+gemini:
+  # Any free-tier Gemini text model works. If Google retires this name,
+  # swap in the current "Flash" model name from aistudio.google.com.
+  model: gemini-2.5-flash
+
+instagram:
+  # Graph API version. Meta retires old versions after ~2 years; bump if you see a version error.
+  graph_version: v23.0
+
+# If a post is still unapproved at its time, the bot reminds you once and waits.

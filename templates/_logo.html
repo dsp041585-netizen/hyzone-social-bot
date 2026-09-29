@@ -1,0 +1,12 @@
+{# The real HyZone shield, same geometry as the app (src/theme/brand.tsx). #}
+{% macro shield(h=48, body='#0A4D3C', letter='#FFFFFF', accent='#C5A059') -%}
+<svg height="{{ h }}" viewBox="0 0 320 380" style="display:block"><path d="M18 0 H302 A18 18 0 0 1 320 18 V160 A160 220 0 0 1 0 160 V18 A18 18 0 0 1 18 0 Z" fill="{{ body }}"/><rect x="90" y="85" width="28" height="165" fill="{{ letter }}"/><rect x="202" y="85" width="28" height="165" fill="{{ letter }}"/><rect x="118" y="155" width="84" height="26" fill="{{ letter }}"/><rect x="105" y="278" width="110" height="19" fill="{{ accent }}"/></svg>
+{%- endmacro %}
+
+{# Shield + HYZONE wordmark. dark=True for green/navy/gold backgrounds (cream shield, green H). #}
+{% macro lockup(dark=True, word='#FFFFFF') -%}
+<div style="display:flex;align-items:center;gap:14px;">
+{% if dark %}{{ shield(46, '#FFFFFF', '#0A4D3C') }}{% else %}{{ shield(46) }}{% endif %}
+<span style="font-family:'Fraunces',serif;font-size:32px;font-weight:700;letter-spacing:6px;color:{{ word }};">HYZONE</span>
+</div>
+{%- endmacro %}

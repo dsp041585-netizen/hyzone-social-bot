@@ -1,0 +1,25 @@
+{% extends "reel_base.html" %}
+{% from "_logo.html" import shield %}
+{% block style %}
+body { background: var(--spruce); }
+.end { width: 1080px; height: 1920px; background: var(--spruce); color: var(--white); display: flex; flex-direction: column;
+       align-items: center; justify-content: center; gap: 36px; text-align: center; padding: 100px; }
+.shield { width: 200px; height: 200px; border-radius: 999px; background: var(--navy); display: flex; align-items: center; justify-content: center; box-shadow: 0 0 0 10px var(--gold); }
+.word { font-family: 'Fraunces', serif; font-size: 120px; font-weight: 700; letter-spacing: 14px; }
+.mean { font-size: 30px; font-weight: 800; letter-spacing: 8px; color: var(--gold); }
+.rule { width: 140px; height: 6px; background: var(--gold); }
+.cta { font-family: 'Fraunces', serif; font-size: 64px; font-weight: 700; }
+.phone { font-size: 64px; font-weight: 800; color: var(--gold); }
+.handle { font-size: 38px; font-weight: 600; }
+{% endblock %}
+{% block body %}
+<div class="end">
+  {{ shield(260, '#FFFFFF', '#0A4D3C') }}
+  <div class="word">HYZONE</div>
+  <div class="mean">SINCE 1999 · A LEGACY RENEWED</div>
+  <div class="rule"></div>
+  <div class="cta">Book an inspection</div>
+  <div class="phone">{{ brand.phone }}</div>
+  <div class="handle">@{{ brand.instagram_handle }}</div>
+</div>
+{% endblock %}

@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{% from "_logo.html" import lockup, shield %}
+{% block style %}
+.half-top { height: 640px; padding: 80px 88px; background: var(--gold); color: var(--navy); display: flex; flex-direction: column; overflow: hidden; }
+.half-bot { flex-grow: 1; padding: 110px 88px 72px; background: var(--spruce); color: var(--white); display: flex; flex-direction: column; gap: 28px; overflow: hidden; }
+.label { font-size: 24px; font-weight: 800; letter-spacing: 6px; }
+.myth { margin: auto 0; font-size: 82px; font-weight: 700; line-height: 1.05; }
+.actually { font-size: 58px; font-weight: 700; line-height: 1.12; }
+.badge { position: absolute; top: 580px; left: 88px; width: 120px; height: 120px; border-radius: 999px; background: var(--navy);
+         display: flex; align-items: center; justify-content: center; box-shadow: 0 0 0 8px var(--gold); }
+{% endblock %}
+{% block body %}
+<div class="root" style="position: relative;">
+  <div class="half-top" data-fit-box>
+    <div class="top"><div class="label">YOU THINK · MYTH BUSTER Nº {{ '%02d' % m.number }}</div>{{ lockup(False, '#0B1B3D') }}</div>
+    <div class="myth serif fit">“{{ c.myth }}”</div>
+  </div>
+  <div class="half-bot" data-fit-box>
+    <div class="label" style="color: var(--gold);">ACTUALLY</div>
+    <div class="actually serif fit">{{ c.actually }}</div>
+    <div class="foot" style="color: var(--gold);"><span>{{ brand.phone }}</span><span>@{{ brand.instagram_handle }}</span></div>
+  </div>
+  <div class="badge"><svg width="56" height="56" viewBox="0 0 24 24" fill="none" stroke="#C5A059" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 4v14M6 12l6 6 6-6"/></svg></div>
+</div>
+{% endblock %}

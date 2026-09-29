@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+{% from "_logo.html" import lockup, shield %}
+{% from "_icons.html" import icon %}
+{% block style %}
+.root { padding: 80px; gap: 40px; background: var(--ivory); color: var(--navy); }
+.card { flex-grow: 1; background: var(--spruce); color: var(--white); border-radius: 44px; padding: 56px; display: flex; flex-direction: column; justify-content: center; gap: 64px; box-shadow: 16px 16px 0 var(--gold); overflow: hidden; }
+.id { display: flex; align-items: center; gap: 36px; }
+.portrait { width: 190px; height: 190px; flex-shrink: 0; border-radius: 999px; background: var(--ivory); display: flex; align-items: center; justify-content: center; }
+.tag { font-size: 22px; font-weight: 800; letter-spacing: 5px; color: var(--gold); }
+.pest { font-size: 76px; font-weight: 700; line-height: 1; }
+.row { display: flex; justify-content: space-between; gap: 32px; padding: 34px 0; border-top: 2px solid rgba(255,255,255,0.25); font-size: 36px; }
+.row:last-child { border-bottom: 2px solid rgba(255,255,255,0.25); }
+.row .k { font-weight: 800; color: var(--gold); letter-spacing: 2px; white-space: nowrap; }
+.row .v { font-weight: 600; text-align: right; }
+.foot { margin-top: 0; color: var(--spruce); }
+{% endblock %}
+{% block body %}
+<div class="root">
+  <div class="top" style="color: var(--spruce);"><div class="pill">KNOW YOUR ENEMY Nº {{ '%02d' % m.number }}</div>{{ lockup(False, '#0B1B3D') }}</div>
+  <div class="card" data-fit-box>
+    <div class="id">
+      <div class="portrait">{{ icon(c.icon, '#0B1B3D', 130) }}</div>
+      <div><div class="tag fit">{{ c.tagline }}</div><div class="pest serif fit">{{ c.pest_name }}</div></div>
+    </div>
+    <div>
+      {% for r in c.rows %}
+      <div class="row fit"><span class="k">{{ r.label }}</span><span class="v">{{ r.value }}</span></div>
+      {% endfor %}
+    </div>
+  </div>
+  <div class="foot"><span>{{ brand.phone }}</span><span>@{{ brand.instagram_handle }}</span></div>
+</div>
+{% endblock %}

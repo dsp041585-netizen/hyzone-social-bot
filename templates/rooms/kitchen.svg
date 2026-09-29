@@ -1,0 +1,8 @@
+<path d="M20 400 H828"/>
+<rect x="60" y="60" width="200" height="340" rx="14"/><path d="M60 180 H260 M230 100 V150 M230 210 V270"/>
+<path d="M272 340 H312 L306 400 H278 Z"/><path d="M266 334 H318"/>
+<rect x="330" y="200" width="490" height="200" rx="8"/><path d="M322 200 H826"/>
+<path d="M440 200 Q440 250 510 250 Q580 250 580 200"/><path d="M550 200 V130 Q550 110 530 110 H510"/>
+<path d="M600 200 V400 M430 260 V340 M700 260 V340"/>
+<ellipse cx="700" cy="190" rx="24" ry="7"/><ellipse cx="775" cy="190" rx="24" ry="7"/>
+<rect x="400" y="388" width="100" height="10" rx="3"/>

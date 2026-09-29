@@ -1,0 +1,49 @@
+{% extends "reel_base.html" %}
+{% from "_icons.html" import icon %}
+{% block style %}
+.zone { position: absolute; top: 880px; left: 0; right: 0; display: flex; justify-content: center; }
+.card { max-width: 900px; border-radius: 36px; padding: 36px 48px; box-shadow: 0 16px 40px rgba(0,0,0,0.35);
+        display: flex; flex-direction: column; align-items: center; gap: 10px; text-align: center; transform: rotate(-2deg); }
+.stat { background: var(--ivory); color: var(--navy); }
+.stat .big { font-family: 'Fraunces', serif; font-size: 170px; font-weight: 700; line-height: 0.9; color: var(--spruce); white-space: nowrap; }
+.stat .small { font-size: 38px; font-weight: 800; }
+.label { font-size: 26px; font-weight: 800; letter-spacing: 6px; }
+.txt { font-size: 50px; font-weight: 700; line-height: 1.15; }
+.myth { background: var(--white); color: var(--navy); border: 6px solid var(--navy); }
+.myth .label { color: #B3261E; }
+.myth .txt { text-decoration: line-through; text-decoration-color: #B3261E; text-decoration-thickness: 6px; }
+.fact { background: var(--spruce); color: var(--white); }
+.fact .label, .tip .label { color: var(--gold); }
+.tip { background: var(--navy); color: var(--white); }
+.pest { flex-direction: row; gap: 26px; background: var(--gold); color: var(--navy); padding: 24px 40px 24px 24px; border-radius: 999px; transform: rotate(-3deg); }
+.pest .disc { width: 130px; height: 130px; border-radius: 999px; background: var(--navy); display: flex; align-items: center; justify-content: center; }
+.pest .txt { font-size: 54px; font-weight: 800; }
+.bzone { position: absolute; top: 860px; left: 60px; right: 60px; }
+.chat { display: flex; align-items: flex-end; gap: 18px; }
+.chat .av { width: 104px; height: 104px; flex-shrink: 0; border-radius: 999px; background: var(--navy); display: flex; align-items: center; justify-content: center; box-shadow: 0 0 0 5px var(--white); }
+.chat .bub { max-width: 780px; background: var(--white); color: var(--navy); border-radius: 36px 36px 36px 10px; padding: 22px 32px 26px; box-shadow: 0 14px 36px rgba(0,0,0,0.35); }
+.chat .who { font-size: 24px; font-weight: 800; color: var(--spruce); margin-bottom: 4px; }
+.chat .msg { font-size: 50px; font-weight: 600; line-height: 1.2; }
+{% endblock %}
+{% block body %}
+{% if card.type == 'bubble' %}
+<div class="bzone"><div class="chat">
+  <div class="av">{{ icon(card.icon, '#C5A059', 64) }}</div>
+  <div class="bub"><div class="who">{{ card.name }}</div><div class="msg">{{ card.text }}</div></div>
+</div></div>
+{% else %}
+<div class="zone">
+  {% if card.type == 'stat' %}
+  <div class="card stat"><div class="big">{{ card.big }}</div><div class="small">{{ card.small }}</div></div>
+  {% elif card.type == 'myth' %}
+  <div class="card myth"><div class="label">MYTH</div><div class="txt serif">{{ card.text }}</div></div>
+  {% elif card.type == 'fact' %}
+  <div class="card fact"><div class="label">FACT</div><div class="txt serif">{{ card.text }}</div></div>
+  {% elif card.type == 'tip' %}
+  <div class="card tip"><div class="label">DO THIS</div><div class="txt">{{ card.text }}</div></div>
+  {% else %}
+  <div class="card pest"><div class="disc">{{ icon(card.icon, '#C5A059', 84) }}</div><div class="txt">{{ card.label }}</div></div>
+  {% endif %}
+</div>
+{% endif %}
+{% endblock %}

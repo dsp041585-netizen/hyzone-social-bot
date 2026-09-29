@@ -1,0 +1,26 @@
+{# Pest icons. Each draws in the given colour at the given size. #}
+{% macro icon(name, color, size) -%}
+{% if name == 'cockroach' -%}
+<svg width="{{ size }}" height="{{ size }}" viewBox="0 0 200 280" fill="{{ color }}" stroke="{{ color }}" stroke-width="12" stroke-linecap="round"><path fill="none" d="M90 62 C72 32 48 14 16 6 M110 62 C128 32 152 14 184 6 M62 150 L16 150 M138 150 L184 150 M62 210 L24 250 M138 210 L176 250 M66 110 L30 96 M134 110 L170 96"/><ellipse cx="100" cy="176" rx="48" ry="80"/><ellipse cx="100" cy="80" rx="30" ry="22"/></svg>
+{%- elif name == 'termite' -%}
+<svg width="{{ size }}" height="{{ size }}" viewBox="0 0 48 48" fill="{{ color }}" stroke="{{ color }}" stroke-width="3" stroke-linecap="round"><path fill="none" d="M21 8 L15 2 M27 8 L33 2 M19 22 L10 18 M29 22 L38 18 M18 30 L8 32 M30 30 L40 32 M19 38 L11 44 M29 38 L37 44"/><ellipse cx="24" cy="11" rx="6" ry="5"/><ellipse cx="24" cy="22" rx="5" ry="5"/><ellipse cx="24" cy="35" rx="8" ry="10"/></svg>
+{%- elif name == 'swarmer' -%}
+<svg width="{{ size }}" height="{{ size }}" viewBox="0 0 48 48" fill="{{ color }}" stroke="{{ color }}" stroke-width="2.5" stroke-linecap="round"><ellipse fill="none" cx="13" cy="26" rx="12" ry="4" transform="rotate(-20 13 26)"/><ellipse fill="none" cx="35" cy="26" rx="12" ry="4" transform="rotate(20 35 26)"/><ellipse cx="24" cy="12" rx="5" ry="5"/><ellipse cx="24" cy="30" rx="5" ry="12"/><path fill="none" d="M22 8 L17 2 M26 8 L31 2"/></svg>
+{%- elif name == 'mosquito' -%}
+<svg width="{{ size }}" height="{{ size }}" viewBox="0 0 48 48" fill="none" stroke="{{ color }}" stroke-width="3" stroke-linecap="round"><ellipse cx="15" cy="17" rx="10" ry="4" transform="rotate(-30 15 17)"/><ellipse cx="33" cy="17" rx="10" ry="4" transform="rotate(30 33 17)"/><path d="M24 14 L24 40" stroke-width="5"/><circle cx="24" cy="10" r="4" fill="{{ color }}"/><path d="M24 6 L24 1 M22 24 L10 34 L6 46 M26 24 L38 34 L42 46 M23 28 L16 42 M25 28 L32 42"/></svg>
+{%- elif name == 'rat' -%}
+<svg width="{{ size }}" height="{{ size }}" viewBox="0 0 48 48" fill="{{ color }}" stroke="{{ color }}" stroke-width="3" stroke-linecap="round"><ellipse cx="22" cy="30" rx="13" ry="9"/><circle cx="34" cy="23" r="7"/><circle cx="32" cy="14" r="4"/><path fill="none" d="M9 32 C2 36 3 44 12 44 M41 24 L46 25"/></svg>
+{%- elif name == 'ant' -%}
+<svg width="{{ size }}" height="{{ size }}" viewBox="0 0 48 48" fill="{{ color }}" stroke="{{ color }}" stroke-width="2.5" stroke-linecap="round"><circle cx="24" cy="10" r="5"/><ellipse cx="24" cy="21" rx="4" ry="5"/><ellipse cx="24" cy="35" rx="7" ry="9"/><path fill="none" d="M22 6 L16 1 M26 6 L32 1 M20 19 L9 13 M28 19 L39 13 M20 22 L7 25 M28 22 L41 25 M21 25 L11 36 M27 25 L37 36"/></svg>
+{%- elif name == 'bedbug' -%}
+<svg width="{{ size }}" height="{{ size }}" viewBox="0 0 48 48" fill="{{ color }}" stroke="{{ color }}" stroke-width="2.5" stroke-linecap="round"><ellipse cx="24" cy="29" rx="14" ry="15"/><ellipse cx="24" cy="10" rx="7" ry="5"/><path fill="none" d="M20 7 L15 2 M28 7 L33 2 M11 22 L4 18 M37 22 L44 18 M10 30 L3 31 M38 30 L45 31 M12 38 L6 44 M36 38 L42 44"/></svg>
+{%- elif name == 'fly' -%}
+<svg width="{{ size }}" height="{{ size }}" viewBox="0 0 48 48" fill="{{ color }}" stroke="{{ color }}" stroke-width="2.5" stroke-linecap="round"><ellipse fill="none" cx="13" cy="20" rx="11" ry="6" transform="rotate(-25 13 20)"/><ellipse fill="none" cx="35" cy="20" rx="11" ry="6" transform="rotate(25 35 20)"/><ellipse cx="24" cy="30" rx="7" ry="11"/><circle cx="24" cy="14" r="6"/><path fill="none" d="M18 32 L9 38 M30 32 L39 38 M19 38 L13 46 M29 38 L35 46"/></svg>
+{%- elif name == 'spider' -%}
+<svg width="{{ size }}" height="{{ size }}" viewBox="0 0 48 48" fill="{{ color }}" stroke="{{ color }}" stroke-width="2.5" stroke-linecap="round"><circle cx="24" cy="18" r="6"/><ellipse cx="24" cy="32" rx="9" ry="10"/><path fill="none" d="M19 16 L8 6 L4 12 M29 16 L40 6 L44 12 M18 20 L6 20 L2 28 M30 20 L42 20 L46 28 M18 24 L8 32 L6 42 M30 24 L40 32 L42 42 M20 28 L14 40 L14 46 M28 28 L34 40 L34 46"/></svg>
+{%- elif name == 'hyzone' -%}
+<svg height="{{ size }}" viewBox="0 0 320 380"><path d="M18 0 H302 A18 18 0 0 1 320 18 V160 A160 220 0 0 1 0 160 V18 A18 18 0 0 1 18 0 Z" fill="{{ color }}"/><rect x="90" y="85" width="28" height="165" fill="#0B1B3D"/><rect x="202" y="85" width="28" height="165" fill="#0B1B3D"/><rect x="118" y="155" width="84" height="26" fill="#0B1B3D"/><rect x="105" y="278" width="110" height="19" fill="#FFFFFF"/></svg>
+{%- else -%}
+<svg width="{{ size }}" height="{{ size }}" viewBox="0 0 48 48" fill="{{ color }}"><circle cx="16" cy="18" r="7"/><circle cx="32" cy="18" r="7"/><circle cx="24" cy="32" r="8"/></svg>
+{%- endif %}
+{%- endmacro %}

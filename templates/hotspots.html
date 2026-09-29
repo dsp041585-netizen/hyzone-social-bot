@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+{% from "_logo.html" import lockup, shield %}
+{% block style %}
+.root { padding: 80px; gap: 36px; background: var(--spruce); color: var(--white); }
+h1 { margin: 0; font-size: 72px; font-weight: 700; line-height: 1.05; }
+.map { background: var(--ivory); border-radius: 36px; padding: 36px; display: flex; justify-content: center; }
+.spots { display: flex; flex-direction: column; gap: 18px; }
+.spot { display: flex; gap: 22px; align-items: baseline; font-size: 34px; font-weight: 600; }
+.spot .n { font-family: 'Fraunces', serif; font-size: 44px; color: var(--gold); }
+.spot b { font-weight: 800; }
+.foot { color: var(--gold); }
+{% endblock %}
+{% block body %}
+<div class="root" data-fit-box>
+  <div class="top"><div class="pill" style="color: var(--gold);">SPOT THE SIGNS</div>{{ lockup(True) }}</div>
+  <h1 class="serif fit">{{ c.headline }} <span style="color: var(--gold);">{{ c.headline_accent }}</span></h1>
+  <div class="map">
+    <svg width="848" height="440" viewBox="0 0 848 440" fill="none" stroke="#0B1B3D" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+      {% include "rooms/" ~ c.room ~ ".svg" %}
+      <g fill="#C5A059" stroke="#0B1B3D" stroke-width="4">
+        {% for s in c.spots %}<circle cx="{{ s.x }}" cy="{{ s.y }}" r="34"/>{% endfor %}
+      </g>
+      <g fill="#0B1B3D" stroke="none" font-family="Manrope, sans-serif" font-weight="800" font-size="34" text-anchor="middle">
+        {% for s in c.spots %}<text x="{{ s.x }}" y="{{ s.y + 12 }}">{{ loop.index }}</text>{% endfor %}
+      </g>
+    </svg>
+  </div>
+  <div class="spots">
+    {% for s in c.spots %}
+    <div class="spot fit"><span class="n">{{ loop.index }}</span><span><b>{{ s.title }}</b> {{ s.detail }}</span></div>
+    {% endfor %}
+  </div>
+  <div class="foot"><span>{{ brand.phone }}</span><span>@{{ brand.instagram_handle }}</span></div>
+</div>
+{% endblock %}
