@@ -82,6 +82,11 @@ Edit `config.yaml` on GitHub (pencil icon): set `phone` and `instagram_handle`. 
 
 ---
 
+## Before Instagram is connected
+Leave `IG_ACCESS_TOKEN` and `IG_USER_ID` unset. Everything else works. At each post's time the bot sends the finished
+poster or Reel to Telegram with "📲 Time to post" and the caption as a separate message to copy. Post it by hand.
+Once you add the two Instagram secrets, it switches to posting by itself.
+
 ## Daily use (Telegram)
 
 - **Reply to a poster** with `approved`, or with what to change: *"make it about bed bugs"*, *"funnier"*, *"shorter headline"*.

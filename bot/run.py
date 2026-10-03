@@ -440,6 +440,10 @@ def image_url(path: str) -> str:
     return f"https://raw.githubusercontent.com/{repo}/{branch}/{path}"
 
 
+def instagram_connected() -> bool:
+    return bool(os.environ.get("IG_ACCESS_TOKEN", "").strip() and os.environ.get("IG_USER_ID", "").strip())
+
+
 def publish_due(state: dict) -> None:
     t = now()
     early = timedelta(hours=float(CFG.get("reels", {}).get("remind_hours_before", 6)))
@@ -452,6 +456,22 @@ def publish_due(state: dict) -> None:
                             "Reply to the script with your video, or reply \"poster\" to use a poster instead.",
                             reply_to=first)
         if at > t:
+            continue
+        if p["status"] == "approved" and not instagram_connected():
+            # Manual mode until Instagram is connected: hand Dev the finished file + caption to post himself.
+            try:
+                caption = fill(p["content"]["caption"])
+                head = f"📲 Time to post {label(state, pid)} · {p['slot']['series']}\n" \
+                       "Save this, open Instagram, post it, and paste the caption below."
+                if p.get("kind") == "reel":
+                    media.pull()
+                    tg.send_video(str(media.MEDIA / p["video"]), head)
+                else:
+                    tg.send_photo(str(ROOT / p["image"]), head)
+                tg.send_message(caption)
+                p["status"] = "posted"
+            except Exception as e:
+                notify_error(state, f"Sending {label(state, pid)} to post", e)
             continue
         if p["status"] == "approved" and (p.get("kind") == "reel" or p.get("image_pushed", True)):
             try:
@@ -495,7 +515,7 @@ def set_github_secret(name: str, value: str) -> None:
 
 
 def maybe_refresh_token(state: dict) -> None:
-    if not os.environ.get("GH_PAT"):
+    if not os.environ.get("GH_PAT") or not instagram_connected():
         return
     last = state.get("token_refreshed_at")
     if last and now() - datetime.fromisoformat(last) < timedelta(days=30):
