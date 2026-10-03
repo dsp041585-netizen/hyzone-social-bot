@@ -4,8 +4,8 @@
 
 brand:
   name: HyZone
-  phone: "[PHONE]"                 # e.g. "+91 98765 43210"
-  instagram_handle: "[HANDLE]"     # without the @, e.g. "hyzone.hyd"
+  phone: "+91 79955 60639"
+  instagram_handle: "hyzoneindia"  # without the @
   city: Hyderabad
 
 timezone: Asia/Kolkata
