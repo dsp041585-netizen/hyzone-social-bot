@@ -1,13 +1,78 @@
 {
   "telegram_offset": 0,
-  "current_week": [],
-  "posts": {},
-  "topics_used": [],
+  "current_week": [
+    "2026-09-28-sun"
+  ],
+  "posts": {
+    "2026-09-28-sun": {
+      "id": "2026-09-28-sun",
+      "day": "Sun",
+      "date": "2026-10-04",
+      "slot": {
+        "day": "Sun",
+        "series": "Ask HyZone",
+        "format": "chat",
+        "mode": "ask",
+        "time": "11:00"
+      },
+      "meta": {
+        "series": "Ask HyZone",
+        "number": 1
+      },
+      "scheduled_at": "2026-10-04T11:00:00+05:30",
+      "content": {
+        "format": "chat",
+        "caption": "\"That’s the other guys. I work the day shift.\"\n\nMost people wait until sunset to worry about mosquitoes. But October is peak season across Hyderabad for the Aedes mosquito, which can spread dengue. Unlike ordinary mosquitoes, Aedes bites mostly during daylight hours and prefers breeding in clean, undisturbed water indoors.\n\nTake two minutes today to check your indoor plant saucers, feng shui bowls, and AC drainage trays. Emptying standing water once a week stops larvae before they ever take flight.\n\nGot questions about keeping your home safe this season? Call or WhatsApp HyZone at [PHONE]. 🦟\n\n#HyZone #PestControlHyderabad #HyderabadHomes #MosquitoControl #DenguePrevention #HomeHygiene",
+        "topic": "Aedes mosquitoes bite in daytime",
+        "mode": "ask",
+        "headline": "Your question this week.",
+        "headline_accent": "We text back.",
+        "contact_name": "HyZone",
+        "contact_status": "pest control · Hyderabad",
+        "icon": "hyzone",
+        "messages": [
+          {
+            "from": "me",
+            "text": "Why do we get bitten during the daytime lately?"
+          },
+          {
+            "from": "them",
+            "text": "Aedes mosquitoes, which can spread dengue, are daytime biters."
+          },
+          {
+            "from": "them",
+            "text": "They breed in clean, still water—like plant trays and coolers."
+          },
+          {
+            "from": "me",
+            "text": "Emptying all the plant trays right now."
+          }
+        ],
+        "fact_label": "THE FACT",
+        "fact_text": "Aedes mosquitoes bite by day and breed in clean water.",
+        "action_label": "YOUR TURN",
+        "action_text": "DM a question. We answer every Sunday"
+      },
+      "image": "posts/2026-09-28/2026-09-28-sun-v1.jpg",
+      "image_pushed": false,
+      "rev": 1,
+      "status": "pending",
+      "tg_ids": [
+        15
+      ],
+      "reminded": false,
+      "failures": 0,
+      "kind": "poster"
+    }
+  },
+  "topics_used": [
+    "Aedes mosquitoes bite in daytime"
+  ],
   "questions": [],
-  "counters": {},
+  "counters": {
+    "Ask HyZone": 1
+  },
   "last_error": "",
   "token_refreshed_at": "",
-  "errors": {
-    "Drafting posts": "⚠️ Drafting posts: Gemini failed after retries: Gemini error 404: {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs"
-  }
+  "errors": {}
 }
