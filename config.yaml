@@ -48,7 +48,7 @@ reels:
 gemini:
   # Any free-tier Gemini text model works. If Google retires this name,
   # swap in the current "Flash" model name from aistudio.google.com.
-  model: gemini-2.5-flash
+  model: gemini-3.8-flash
 
 instagram:
   # Graph API version. Meta retires old versions after ~2 years; bump if you see a version error.
