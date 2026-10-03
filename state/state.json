@@ -1,5 +1,5 @@
 {
-  "telegram_offset": 0,
+  "telegram_offset": 355469212,
   "current_week": [
     "2026-09-28-sun"
   ],
@@ -22,8 +22,8 @@
       "scheduled_at": "2026-10-04T11:00:00+05:30",
       "content": {
         "format": "chat",
-        "caption": "\"That’s the other guys. I work the day shift.\"\n\nMost people wait until sunset to worry about mosquitoes. But October is peak season across Hyderabad for the Aedes mosquito, which can spread dengue. Unlike ordinary mosquitoes, Aedes bites mostly during daylight hours and prefers breeding in clean, undisturbed water indoors.\n\nTake two minutes today to check your indoor plant saucers, feng shui bowls, and AC drainage trays. Emptying standing water once a week stops larvae before they ever take flight.\n\nGot questions about keeping your home safe this season? Call or WhatsApp HyZone at [PHONE]. 🦟\n\n#HyZone #PestControlHyderabad #HyderabadHomes #MosquitoControl #DenguePrevention #HomeHygiene",
-        "topic": "Aedes mosquitoes bite in daytime",
+        "caption": "\"That’s the night shift. We work the day shift.\"\n\nMost of us grew up thinking mosquitoes only attack after sunset. But right now in Hyderabad, daytime bites are at their peak. The mosquitoes that can spread dengue bite mostly during daylight hours and love breeding in fresh, standing water inside our homes.\n\nTake two minutes today to check your indoor plant trays, AC runoff, and balcony buckets. Emptying standing water once a week breaks their cycle before they can fly.\n\nHave questions about keeping your home safe this season? Call or WhatsApp HyZone at [PHONE]. 🦟\n\n#HyZone #PestControlHyderabad #HyderabadHomes #MosquitoControl #DenguePrevention #HomeHygiene",
+        "topic": "Dengue mosquitoes bite during daytime",
         "mode": "ask",
         "headline": "Your question this week.",
         "headline_accent": "We text back.",
@@ -33,32 +33,33 @@
         "messages": [
           {
             "from": "me",
-            "text": "Why do we get bitten during the daytime lately?"
+            "text": "Why are mosquitoes biting us during the day now?"
           },
           {
             "from": "them",
-            "text": "Aedes mosquitoes, which can spread dengue, are daytime biters."
+            "text": "Dengue mosquitoes actually bite mostly during daylight."
           },
           {
             "from": "them",
-            "text": "They breed in clean, still water—like plant trays and coolers."
+            "text": "They love clean, still water indoors—like plant saucers."
           },
           {
             "from": "me",
-            "text": "Emptying all the plant trays right now."
+            "text": "Checking every plant saucer right now."
           }
         ],
-        "fact_label": "THE FACT",
-        "fact_text": "Aedes mosquitoes bite by day and breed in clean water.",
+        "fact_label": "THE ANSWER",
+        "fact_text": "Dengue mosquitoes bite by day and breed indoors.",
         "action_label": "YOUR TURN",
         "action_text": "DM a question. We answer every Sunday"
       },
-      "image": "posts/2026-09-28/2026-09-28-sun-v1.jpg",
+      "image": "posts/2026-09-28/2026-09-28-sun-v2.jpg",
       "image_pushed": false,
-      "rev": 1,
+      "rev": 2,
       "status": "pending",
       "tg_ids": [
-        15
+        15,
+        18
       ],
       "reminded": false,
       "failures": 0,
@@ -66,7 +67,7 @@
     }
   },
   "topics_used": [
-    "Aedes mosquitoes bite in daytime"
+    "Dengue mosquitoes bite during daytime"
   ],
   "questions": [],
   "counters": {
