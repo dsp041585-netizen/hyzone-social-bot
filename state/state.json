@@ -54,7 +54,7 @@
         "action_text": "DM a question. We answer every Sunday"
       },
       "image": "posts/2026-09-28/2026-09-28-sun-v2.jpg",
-      "image_pushed": false,
+      "image_pushed": true,
       "rev": 2,
       "status": "pending",
       "tg_ids": [
