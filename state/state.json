@@ -75,7 +75,5 @@
   },
   "last_error": "",
   "token_refreshed_at": "",
-  "errors": {
-    "Drafting posts": "⚠️ Drafting posts: Gemini failed after retries: Gemini busy (503)"
-  }
+  "errors": {}
 }
