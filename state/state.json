@@ -61,7 +61,7 @@
         15,
         18
       ],
-      "reminded": false,
+      "reminded": true,
       "failures": 0,
       "kind": "poster"
     }
