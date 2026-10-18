@@ -1,7 +1,13 @@
 {
   "telegram_offset": 355469213,
   "current_week": [
-    "2026-09-28-sun"
+    "2026-10-19-mon",
+    "2026-10-19-tue",
+    "2026-10-19-wed",
+    "2026-10-19-thu",
+    "2026-10-19-fri",
+    "2026-10-19-sat",
+    "2026-10-19-sun"
   ],
   "posts": {
     "2026-09-28-sun": {
@@ -64,14 +70,428 @@
       "reminded": true,
       "failures": 0,
       "kind": "poster"
+    },
+    "2026-10-19-mon": {
+      "id": "2026-10-19-mon",
+      "day": "Mon",
+      "date": "2026-10-19",
+      "slot": {
+        "day": "Mon",
+        "series": "Did You Know",
+        "format": "big_number",
+        "time": "19:30",
+        "reel": true
+      },
+      "meta": {
+        "series": "Did You Know",
+        "number": 1
+      },
+      "scheduled_at": "2026-10-19T19:30:00+05:30",
+      "content": {
+        "format": "reel",
+        "topic": "Cockroach egg cases survive sprays",
+        "hook": "Why sprays never fully kill roaches",
+        "lines": [
+          "Kitchen lo spray kottesi cockroaches motham poyayi ani relax avthunnara?",
+          "Normal aerosol spray tho adult roach chanipovachu, kani daani egg case ni spray touch kooda cheyaledu.",
+          "Oka single cockroach egg case lo thirty to forty baby roaches safe ga untaayi.",
+          "Two to three weeks lo avi hatch ayyi, mee kitchen lo same problem malli modatiki vasthundi.",
+          "Roaches cycle break cheyalante appliances venaka unna hidden spots ni correct ga treat cheyali.",
+          "Permanent kitchen protection kosam HyZone ki call cheyandi leda ventane DM cheyandi."
+        ],
+        "caption": "\"40 new roommates dropping soon.\"\n\nThat supermarket spray might take down the one roach you saw on the counter, but it doesn't solve the real problem: the egg case. 🪳\n\nA single German cockroach egg case carries up to 40 nymphs. Most household sprays cannot penetrate its thick outer shell. Within two to three weeks, those eggs hatch in the warm gaps behind your fridge or microwave, restarting the entire cycle.\n\nBreaking the infestation means targeting nesting sites with professional baits and growth regulators. HyZone has been protecting Hyderabad's homes and commercial kitchens since 1999 with smarter, lasting methods.\n\nSeeing roaches return? Call us at [PHONE] or DM us to book an inspection.\n\n#HyZone #PestControlHyderabad #CockroachControl #HyderabadKitchens #RestaurantHygiene #Suchitra",
+        "bubbles": [
+          {
+            "line": 2,
+            "pest": "cockroach",
+            "text": "spray all you want my egg shell is thick"
+          },
+          {
+            "line": 3,
+            "pest": "cockroach",
+            "text": "40 new roommates dropping soon"
+          }
+        ]
+      },
+      "image": null,
+      "image_pushed": false,
+      "rev": 0,
+      "status": "awaiting_video",
+      "tg_ids": [
+        28
+      ],
+      "reminded": false,
+      "failures": 0,
+      "kind": "reel",
+      "video": null,
+      "original": null,
+      "plan": null,
+      "early_reminded": false
+    },
+    "2026-10-19-tue": {
+      "id": "2026-10-19-tue",
+      "day": "Tue",
+      "date": "2026-10-20",
+      "slot": {
+        "day": "Tue",
+        "series": "Myth Buster",
+        "format": "you_think",
+        "time": "19:30"
+      },
+      "meta": {
+        "series": "Myth Buster",
+        "number": 1
+      },
+      "scheduled_at": "2026-10-20T19:30:00+05:30",
+      "content": {
+        "format": "you_think",
+        "caption": "\"looks fine to me,\" says the termite. \"delicious, in fact.\" Post-monsoon moisture in Hyderabad brings termite colonies straight into doorframes, kitchen cabinets, and skirting boards. The tricky part? They never chew the outer paint. They eat silently from the inside out, layer by layer, until that solid wood is just a paper-thin shell. By the time you spot a slight bubble in the paint or tap a hollow sound, the core is already gone. 🪵 Protect your timber before the hollow sound gives it away. HyZone provides targeted termite treatments across Hyderabad. Reach out to us at [PHONE] for a proper inspection.\n\n#HyZone #PestControlHyderabad #TermiteControl #HyderabadHomes #CommercialKitchenHygiene #Suchitra",
+        "topic": "Termites hollow wood from inside",
+        "myth": "If the wood surface looks intact, there are no termites inside",
+        "actually": "Termites hollow out timber from the inside, leaving outer paint and polish completely intact."
+      },
+      "image": "posts/2026-10-19/2026-10-19-tue-v1.jpg",
+      "image_pushed": false,
+      "rev": 1,
+      "status": "pending",
+      "tg_ids": [
+        29
+      ],
+      "reminded": false,
+      "failures": 0,
+      "kind": "poster"
+    },
+    "2026-10-19-wed": {
+      "id": "2026-10-19-wed",
+      "day": "Wed",
+      "date": "2026-10-21",
+      "slot": {
+        "day": "Wed",
+        "series": "Spot the Signs",
+        "format": "hotspots",
+        "time": "19:30",
+        "reel": true
+      },
+      "meta": {
+        "series": "Spot the Signs",
+        "number": 1
+      },
+      "scheduled_at": "2026-10-21T19:30:00+05:30",
+      "content": {
+        "format": "reel",
+        "topic": "Spotting rat signs in kitchens",
+        "hook": "That's not black cumin in your pantry",
+        "lines": [
+          "Kitchen cabinets lo jeera laanti black pellets kanipistunaya?",
+          "Chala mandi avi spilled spices anukuntaru, but those are fresh rodent droppings.",
+          "October lo weather cool avvagane, rats look for quiet corners near food.",
+          "Skirting boards and walls daggara dark grease rub marks unna, it confirms rat movement.",
+          "Just sweep chesi clean cheste saripodu, because they return to the exact same path.",
+          "Kitchen lo ilanti signs unte, HyZone ki call cheyandi or DM us, we'll inspect it properly."
+        ],
+        "caption": "\"lol not cumin. i left those for you.\"\n\nFinding tiny, spindle-shaped black pellets in your pantry corners or under the sink? It is one of the easiest signs to overlook. As nights get cooler in October, rodents search for indoor shelter and steady food sources. Sweeping the pellets away only removes the trace, not the pest. Rats stick to habits, moving along the edges of walls and leaving faint grease marks as they scout your shelves.\n\nSpotting the signs early helps you block entry gaps before they nest.\n\nNotice unusual marks or droppings in your home or commercial kitchen? Call HyZone at [PHONE] or DM us for a calm, professional inspection. 🐀🔍\n\n#HyZone #PestControlHyderabad #KitchenHygiene #HyderabadRestaurants #Suchitra #RodentControl #PestSigns",
+        "bubbles": [
+          {
+            "line": 2,
+            "pest": "rat",
+            "text": "lol not cumin. i left those for you"
+          },
+          {
+            "line": 4,
+            "pest": "rat",
+            "text": "that wall mark is my private highway"
+          }
+        ]
+      },
+      "image": null,
+      "image_pushed": false,
+      "rev": 0,
+      "status": "awaiting_video",
+      "tg_ids": [
+        30
+      ],
+      "reminded": false,
+      "failures": 0,
+      "kind": "reel",
+      "video": null,
+      "original": null,
+      "plan": null,
+      "early_reminded": false
+    },
+    "2026-10-19-thu": {
+      "id": "2026-10-19-thu",
+      "day": "Thu",
+      "date": "2026-10-22",
+      "slot": {
+        "day": "Thu",
+        "series": "Prevention Tip",
+        "format": "chat",
+        "mode": "pest",
+        "time": "19:30"
+      },
+      "meta": {
+        "series": "Prevention Tip",
+        "number": 1
+      },
+      "scheduled_at": "2026-10-22T19:30:00+05:30",
+      "content": {
+        "format": "chat",
+        "caption": "\"cute. did you check your indoor money plant vase?\"\n\nMost people think mosquitoes only breed outdoors in drains and puddles. But during October in Hyderabad, a lot of breeding happens right inside our living rooms.\n\nMosquitoes can lay hundreds of eggs in surprisingly tiny amounts of stagnant, clean water. An indoor money plant vase, a forgotten coaster under a flowerpot, or the tray behind your refrigerator is more than enough for them. Within a week, you have a fresh swarm indoors.\n\nThe fix is simple: empty and scrub your plant vases once every week to clear out any clingy eggs, or move them to soil.\n\nNeed an expert eye to check your home or kitchen? HyZone has been protecting Hyderabad spaces since 1999. Call us at [PHONE] to book a visit. 🌿\n\n#HyZone #PestControlHyderabad #MosquitoPrevention #HyderabadHomes #HyderabadLiving #Suchitra",
+        "topic": "Mosquito breeding in indoor plant water",
+        "mode": "pest",
+        "headline": "Emptied every bucket outside.",
+        "headline_accent": "The mosquito texts back.",
+        "contact_name": "The Mosquito",
+        "contact_status": "online · in your money plant",
+        "icon": "mosquito",
+        "messages": [
+          {
+            "from": "me",
+            "text": "Emptied every bucket outside. Zero mosquitoes."
+          },
+          {
+            "from": "them",
+            "text": "cute"
+          },
+          {
+            "from": "them",
+            "text": "did you check your indoor money plant vase?"
+          },
+          {
+            "from": "them",
+            "text": "i only need a spoonful of clean water to lay eggs"
+          },
+          {
+            "from": "them",
+            "text": "hundreds of us hatching this week lol"
+          },
+          {
+            "from": "me",
+            "text": "Dumping the vase NOW. Calling HyZone."
+          }
+        ],
+        "fact_label": "THE FACT",
+        "fact_text": "Mosquitoes can breed in a spoonful of still water.",
+        "action_label": "THE FIX",
+        "action_text": "Change indoor plant water weekly and scrub vases."
+      },
+      "image": "posts/2026-10-19/2026-10-19-thu-v1.jpg",
+      "image_pushed": false,
+      "rev": 1,
+      "status": "pending",
+      "tg_ids": [
+        31
+      ],
+      "reminded": false,
+      "failures": 0,
+      "kind": "poster"
+    },
+    "2026-10-19-fri": {
+      "id": "2026-10-19-fri",
+      "day": "Fri",
+      "date": "2026-10-23",
+      "slot": {
+        "day": "Fri",
+        "series": "Know Your Enemy",
+        "format": "profile_card",
+        "time": "19:30",
+        "reel": true
+      },
+      "meta": {
+        "series": "Know Your Enemy",
+        "number": 1
+      },
+      "scheduled_at": "2026-10-23T19:30:00+05:30",
+      "content": {
+        "format": "reel",
+        "topic": "Cockroaches inside kitchen appliances",
+        "hook": "Why roaches love your kitchen appliances",
+        "lines": [
+          "Kitchen platform clean ga unna, roaches malli malli ela vasthunnayo chusara?",
+          "Cockroaches counter meeda undavu... warm electrical appliances lopala dachukuntaayi.",
+          "Mixie motor base, microwave back panels, fridge compressor—ivi vaatiki perfect homes.",
+          "Night lights off cheyagane, heat and leftover crumbs kosam silent ga bayataki vasthayi.",
+          "Normal sprays appliance lopaliki reach avvavu, plus wiring damage ayye risk untundi.",
+          "Targeted, appliance-safe baiting tho matrame ee hidden nests ni safely clear cheyagalam.",
+          "Mee kitchen lo persistent cockroach problem unte, call or DM HyZone today."
+        ],
+        "caption": "\"Spray all you want, I live inside your mixie motor.\"\n\nWiped down your kitchen counters completely but still spotting tiny cockroaches at night? They likely aren't living on your shelves at all. German cockroaches seek warmth and undisturbed harborage, making mixer grinders, microwave back panels, and refrigerator compressors prime nesting grounds. Spraying chemical aerosols directly into electronics is risky and rarely reaches the colony inside. At HyZone, we use precise, appliance-safe baiting to eliminate hidden nests safely and cleanly. Running a commercial kitchen or managing a home in North Hyderabad? Reach out at [PHONE] or send us a DM to schedule an inspection. 🪳✨\n\n#HyZone #PestControlHyderabad #KitchenHygiene #GermanCockroaches #HyderabadRestaurants #Suchitra",
+        "bubbles": [
+          {
+            "line": 3,
+            "pest": "cockroach",
+            "text": "free heater behind your mixie. thanks"
+          },
+          {
+            "line": 5,
+            "pest": "cockroach",
+            "text": "spray all you want, i live in the motor"
+          }
+        ]
+      },
+      "image": null,
+      "image_pushed": false,
+      "rev": 0,
+      "status": "awaiting_video",
+      "tg_ids": [
+        32
+      ],
+      "reminded": false,
+      "failures": 0,
+      "kind": "reel",
+      "video": null,
+      "original": null,
+      "plan": null,
+      "early_reminded": false
+    },
+    "2026-10-19-sat": {
+      "id": "2026-10-19-sat",
+      "day": "Sat",
+      "date": "2026-10-24",
+      "slot": {
+        "day": "Sat",
+        "series": "Our Story",
+        "format": "chat",
+        "mode": "group",
+        "time": "11:00"
+      },
+      "meta": {
+        "series": "Our Story",
+        "number": 1
+      },
+      "scheduled_at": "2026-10-24T11:00:00+05:30",
+      "content": {
+        "format": "chat",
+        "caption": "\"chill. just hide until the spray clears.\"\n\nPests love one-time sprays because they can simply wait behind tiles and equipment until the air clears. What they dread is routine, disciplined hygiene management.\n\nAt HyZone, we have protected Hyderabad's restaurants, cafes, and homes since 1999. Hy·Zone stands for Hygienic Zone, and with over 25 years in the business, our legacy is built on regular inspections rather than temporary fixes. When a kitchen stays consistently monitored, pests never get the chance to breed or settle.\n\nKeep your dining space running with total confidence. To set up routine pest maintenance for your kitchen, speak to our team at [PHONE].\n\n#HyZone #PestControlHyderabad #CommercialKitchens #KitchenHygiene #RestaurantHygiene #Suchitra #HyderabadFoodies",
+        "topic": "Routine kitchen audits prevent pests",
+        "mode": "group",
+        "headline": "Overheard in the",
+        "headline_accent": "kitchen pests' group chat…",
+        "contact_name": "Suchitra Kitchen Club",
+        "contact_status": "German Roach, Brown Rat, Fly",
+        "icon": "group",
+        "messages": [
+          {
+            "from": "German Roach",
+            "text": "bad news team. the cafe called HyZone"
+          },
+          {
+            "from": "Brown Rat",
+            "text": "chill. just hide until the spray clears"
+          },
+          {
+            "from": "German Roach",
+            "text": "it's not a one-time spray. it's routine visits"
+          },
+          {
+            "from": "Fly",
+            "text": "they've been shutting us down since 1999"
+          },
+          {
+            "from": "Brown Rat",
+            "text": "over 25 years of ruining our dinner plans"
+          }
+        ],
+        "fact_label": "THE REALITY",
+        "fact_text": "Routine monitoring stops pests before they settle in.",
+        "action_label": "SMART ACTION",
+        "action_text": "Book regular kitchen hygiene audits with HyZone."
+      },
+      "image": "posts/2026-10-19/2026-10-19-sat-v1.jpg",
+      "image_pushed": false,
+      "rev": 1,
+      "status": "pending",
+      "tg_ids": [
+        33
+      ],
+      "reminded": false,
+      "failures": 0,
+      "kind": "poster"
+    },
+    "2026-10-19-sun": {
+      "id": "2026-10-19-sun",
+      "day": "Sun",
+      "date": "2026-10-25",
+      "slot": {
+        "day": "Sun",
+        "series": "Ask HyZone",
+        "format": "chat",
+        "mode": "ask",
+        "time": "11:00"
+      },
+      "meta": {
+        "series": "Ask HyZone",
+        "number": 2
+      },
+      "scheduled_at": "2026-10-25T11:00:00+05:30",
+      "content": {
+        "format": "chat",
+        "caption": "The urge to deep clean right after the pest control team leaves is real. But put the mop down for just a second.\n\nWhen we treat skirting, corners, and entryways, we leave behind a protective barrier designed to stop pests in their tracks. If you run a wet mop soaked in floor cleaner along those exact edges the next morning, you simply wash the protection down the drain.\n\nDry sweep the centre of the room, wipe your counters, but give the edges a few days to do their job. Your technician will always advise you on exact drying and waiting times.\n\nGot pest queries for your home in North Hyderabad? Call HyZone at [PHONE] or drop us a DM.\n\n#HyZone #PestControlHyderabad #HyderabadHomes #HomeHygiene #PestControlTips #Suchitra",
+        "topic": "Avoid mopping edges after treatment",
+        "mode": "ask",
+        "headline": "Your question this week.",
+        "headline_accent": "We text back.",
+        "contact_name": "HyZone",
+        "contact_status": "pest control · Hyderabad",
+        "icon": "hyzone",
+        "messages": [
+          {
+            "from": "me",
+            "text": "Can I mop the kitchen floor right after pest control?"
+          },
+          {
+            "from": "them",
+            "text": "Hold the mop! Avoid wet mopping near edges for a few days."
+          },
+          {
+            "from": "them",
+            "text": "Wiping skirting boards washes away the residual barrier."
+          },
+          {
+            "from": "them",
+            "text": "You can gently sweep or dry mop the middle of the room."
+          },
+          {
+            "from": "me",
+            "text": "Phew! Saving this before someone ruins the treatment."
+          }
+        ],
+        "fact_label": "THE RULE",
+        "fact_text": "Don't wet mop edges right after pest control.",
+        "action_label": "YOUR TURN",
+        "action_text": "DM a question. We answer every Sunday"
+      },
+      "image": "posts/2026-10-19/2026-10-19-sun-v1.jpg",
+      "image_pushed": false,
+      "rev": 1,
+      "status": "pending",
+      "tg_ids": [
+        34
+      ],
+      "reminded": false,
+      "failures": 0,
+      "kind": "poster"
     }
   },
   "topics_used": [
-    "Dengue mosquitoes bite during daytime"
+    "Dengue mosquitoes bite during daytime",
+    "Cockroach egg cases survive sprays",
+    "Termites hollow wood from inside",
+    "Spotting rat signs in kitchens",
+    "Mosquito breeding in indoor plant water",
+    "Cockroaches inside kitchen appliances",
+    "Routine kitchen audits prevent pests",
+    "Avoid mopping edges after treatment"
   ],
   "questions": [],
   "counters": {
-    "Ask HyZone": 1
+    "Ask HyZone": 2,
+    "Did You Know": 1,
+    "Myth Buster": 1,
+    "Spot the Signs": 1,
+    "Prevention Tip": 1,
+    "Know Your Enemy": 1,
+    "Our Story": 1
   },
   "last_error": "",
   "token_refreshed_at": "",
