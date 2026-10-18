@@ -114,7 +114,7 @@
         ]
       },
       "image": null,
-      "image_pushed": false,
+      "image_pushed": true,
       "rev": 0,
       "status": "awaiting_video",
       "tg_ids": [
@@ -151,7 +151,7 @@
         "actually": "Termites hollow out timber from the inside, leaving outer paint and polish completely intact."
       },
       "image": "posts/2026-10-19/2026-10-19-tue-v1.jpg",
-      "image_pushed": false,
+      "image_pushed": true,
       "rev": 1,
       "status": "pending",
       "tg_ids": [
@@ -204,7 +204,7 @@
         ]
       },
       "image": null,
-      "image_pushed": false,
+      "image_pushed": true,
       "rev": 0,
       "status": "awaiting_video",
       "tg_ids": [
@@ -276,7 +276,7 @@
         "action_text": "Change indoor plant water weekly and scrub vases."
       },
       "image": "posts/2026-10-19/2026-10-19-thu-v1.jpg",
-      "image_pushed": false,
+      "image_pushed": true,
       "rev": 1,
       "status": "pending",
       "tg_ids": [
@@ -330,7 +330,7 @@
         ]
       },
       "image": null,
-      "image_pushed": false,
+      "image_pushed": true,
       "rev": 0,
       "status": "awaiting_video",
       "tg_ids": [
@@ -398,7 +398,7 @@
         "action_text": "Book regular kitchen hygiene audits with HyZone."
       },
       "image": "posts/2026-10-19/2026-10-19-sat-v1.jpg",
-      "image_pushed": false,
+      "image_pushed": true,
       "rev": 1,
       "status": "pending",
       "tg_ids": [
@@ -462,7 +462,7 @@
         "action_text": "DM a question. We answer every Sunday"
       },
       "image": "posts/2026-10-19/2026-10-19-sun-v1.jpg",
-      "image_pushed": false,
+      "image_pushed": true,
       "rev": 1,
       "status": "pending",
       "tg_ids": [
