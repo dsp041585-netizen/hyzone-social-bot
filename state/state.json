@@ -157,7 +157,7 @@
       "tg_ids": [
         29
       ],
-      "reminded": false,
+      "reminded": true,
       "failures": 0,
       "kind": "poster"
     },
