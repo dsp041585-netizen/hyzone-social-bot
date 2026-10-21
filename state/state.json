@@ -210,7 +210,7 @@
       "tg_ids": [
         30
       ],
-      "reminded": false,
+      "reminded": true,
       "failures": 0,
       "kind": "reel",
       "video": null,
