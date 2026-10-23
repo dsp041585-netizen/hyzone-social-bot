@@ -336,7 +336,7 @@
       "tg_ids": [
         32
       ],
-      "reminded": false,
+      "reminded": true,
       "failures": 0,
       "kind": "reel",
       "video": null,
