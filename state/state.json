@@ -404,7 +404,7 @@
       "tg_ids": [
         33
       ],
-      "reminded": false,
+      "reminded": true,
       "failures": 0,
       "kind": "poster"
     },
